@@ -4,6 +4,7 @@ spring:
     username: example
     password: example
   jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
     properties:
       hibernate.integrator_provider: com.vladmihalcea.hibernate.type.util.ClassImportIntegrator
     hibernate:
