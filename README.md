@@ -1,0 +1,1 @@
+# hibernate-types-projection-example
