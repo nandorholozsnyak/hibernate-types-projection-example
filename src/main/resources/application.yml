@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/example
+    username: example
+    password: example
+  jpa:
+    properties:
+      hibernate.integrator_provider: com.vladmihalcea.hibernate.type.util.ClassImportIntegrator
+    hibernate:
+      ddl-auto: create-drop
